@@ -1,0 +1,7 @@
+<launch>
+  <!-- Launch RealSense D435i driver -->
+  <!-- <include file="$(realsense2_camera)/launch/rs_d435_be2r.launch" /> -->
+
+  <!-- Launch pointcloud downsampling to send by ethernet to laptop -->
+  <include file="$(find realsense2_camera)/launch/downsample.launch" />
+</launch>
